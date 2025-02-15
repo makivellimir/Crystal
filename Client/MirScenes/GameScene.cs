@@ -39,7 +39,9 @@ namespace Client.MirScenes
             set { MapObject.HeroObject = value; }
         }
 
+
         public static long MoveTime, AttackTime, NextRunTime, LogTime, LastRunTime, ChangePModeTime, ChangeAModeTime, HeroSpellTime, IntelligentCreaturePickupTime;
+
         public static bool CanMove, CanRun;
 
         private bool hasHero;
